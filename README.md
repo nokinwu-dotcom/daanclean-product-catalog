@@ -12,5 +12,5 @@ Summary:
 
 - Products: 294
 - Product image rows: 294
-- Unique product images: 251
+- Unique product images: 56
 - Missing image rows: 0

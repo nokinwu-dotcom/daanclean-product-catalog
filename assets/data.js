@@ -5302,8 +5302,8 @@ window.DAAN_CATALOG_DATA = {
       "DA-T-SH-15": 4
     },
     "image_processing": {
-      "written": 251,
-      "reused": 43,
+      "written": 56,
+      "reused": 238,
       "errors": []
     },
     "image_source_summary": {
