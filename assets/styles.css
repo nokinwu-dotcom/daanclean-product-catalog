@@ -130,7 +130,7 @@ select {
   box-shadow: 0 0 0 3px rgba(33, 108, 90, .14);
 }
 
-.download-button,
+.download-menu summary,
 .ghost-button {
   min-height: 40px;
   border-radius: 8px;
@@ -146,13 +146,70 @@ select {
   white-space: nowrap;
 }
 
-.download-button {
-  background: var(--accent);
-  color: #fff;
+.download-menu {
+  position: relative;
 }
 
-.download-button:hover {
+.download-menu summary {
+  background: var(--accent);
+  color: #fff;
+  list-style: none;
+}
+
+.download-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.download-menu summary::after {
+  content: "8 files";
+  margin-left: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .18);
+  padding: 3px 7px;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.download-menu summary:hover {
   background: var(--accent-dark);
+}
+
+.download-list {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 30;
+  width: min(360px, 84vw);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 18px 40px rgba(33, 45, 39, .16);
+  padding: 7px;
+  display: grid;
+  gap: 2px;
+}
+
+.download-list a {
+  min-height: 36px;
+  border-radius: 6px;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-weight: 720;
+  line-height: 1.25;
+  text-decoration: none;
+  white-space: normal;
+}
+
+.download-list a:first-child {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.download-list a:hover {
+  background: var(--warm);
 }
 
 .ghost-button {
@@ -477,6 +534,16 @@ main {
   .header-actions {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .download-menu summary {
+    width: 100%;
+  }
+
+  .download-list {
+    left: 0;
+    right: auto;
+    width: 100%;
   }
 
   .filter-toggle {
