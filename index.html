@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DAAN CLEAN Product Catalogue</title>
+  <meta name="description" content="DAAN CLEAN product catalogue with searchable categories and product specifications.">
+  <link rel="preload" href="assets/daan-clean-logo.webp" as="image" type="image/webp">
+  <link rel="icon" href="assets/daan-clean-logo.webp" type="image/webp">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <a class="brand" href="https://www.daanclean.com" target="_blank" rel="noopener">
+        <img src="assets/daan-clean-logo.webp" alt="DAAN CLEAN">
+        <span>Product Catalogue</span>
+      </a>
+      <div class="catalog-meta">
+        <strong id="totalCount">294 products</strong>
+        <span>Updated July 16, 2026</span>
+      </div>
+      <div class="header-actions">
+        <label class="search-box">
+          <span>Search</span>
+          <input id="searchInput" type="search" autocomplete="off" placeholder="SKU, product, color, size">
+        </label>
+        <a class="download-button" href="assets/DAAN_CLEAN_2026_Product_Specifications.xlsx" download>Download specs</a>
+      </div>
+    </div>
+    <div class="filterbar">
+      <button id="filterToggle" class="filter-toggle" type="button" aria-expanded="false">Categories</button>
+      <nav id="categoryMenu" class="category-menu" aria-label="Product categories"></nav>
+      <label class="select-wrap">
+        <span>Subcategory</span>
+        <select id="secondarySelect"></select>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="result-strip" aria-live="polite">
+      <div>
+        <strong id="resultCount">294 products</strong>
+        <span id="activeFilter">All categories</span>
+      </div>
+      <button id="resetFilters" class="ghost-button" type="button">Reset</button>
+    </section>
+
+    <section id="grid" class="product-grid" aria-label="Products"></section>
+    <section id="emptyState" class="empty-state" hidden>
+      <strong>No matching products</strong>
+      <span>Try another SKU, product name, or category.</span>
+    </section>
+  </main>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

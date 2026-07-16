@@ -1,0 +1,32 @@
+{
+  "category_fixes": {
+    "Car Cleaing and Care Products -> Car Cleaning and Care Products": 1
+  },
+  "image_aliases": [
+    "DA-O-OCC-1 matched to DA-O-CCC-1",
+    "DA-O-OCC-2 matched to DA-O-CCC-2",
+    "DA-O-OCC-3 matched to DA-O-CCC-3",
+    "DA-O-OCC-4 matched to DA-O-CCC-4",
+    "DL-L-LNL-1 matched to DA-L-LNL-1",
+    "DL-L-LNL-3 matched to DA-L-LNL-3"
+  ],
+  "missing_images": [],
+  "duplicate_skus": {
+    "DA-T-SH-9": 10,
+    "DA-T-SH-10": 10,
+    "DA-T-SH-11": 7,
+    "DA-T-SH-12": 7,
+    "DA-T-SH-13": 8,
+    "DA-T-SH-14": 4,
+    "DA-T-SH-15": 4
+  },
+  "image_processing": {
+    "written": 251,
+    "reused": 43,
+    "errors": []
+  },
+  "image_source_summary": {
+    "file": 251,
+    "zip": 6
+  }
+}
