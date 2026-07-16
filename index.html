@@ -43,31 +43,10 @@
     <div class="filterbar">
       <button id="filterToggle" class="filter-toggle" type="button" aria-expanded="false">Categories</button>
       <nav id="categoryMenu" class="category-menu" aria-label="Product categories"></nav>
-      <label class="select-wrap">
-        <span>Subcategory</span>
-        <select id="secondarySelect"></select>
-      </label>
     </div>
   </header>
 
   <main>
-    <section class="result-strip" aria-live="polite">
-      <div>
-        <strong id="resultCount">294 products</strong>
-        <span id="activeFilter">All categories</span>
-      </div>
-      <div class="result-actions">
-        <a class="factory-link" href="#factoryStrength">Factory Strength</a>
-        <button id="resetFilters" class="ghost-button" type="button">Reset</button>
-      </div>
-    </section>
-
-    <section id="grid" class="product-grid" aria-label="Products"></section>
-    <section id="emptyState" class="empty-state" hidden>
-      <strong>No matching products</strong>
-      <span>Try another SKU, product name, or category.</span>
-    </section>
-
     <section id="factoryStrength" class="factory-section" aria-label="Factory strength">
       <div class="section-heading">
         <span>Factory Direct Supply</span>
@@ -148,6 +127,12 @@
           <h3>Spain Packaging Law Registration</h3>
         </article>
       </div>
+    </section>
+
+    <section id="grid" class="product-grid" aria-label="Products"></section>
+    <section id="emptyState" class="empty-state" hidden>
+      <strong>No matching products</strong>
+      <span>Try another SKU, product name, or category.</span>
     </section>
   </main>
 
