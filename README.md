@@ -4,7 +4,7 @@ Static product catalogue for DAAN CLEAN / Daan Daily Chemical.
 
 Website: https://www.daanclean.com
 
-Catalogue: https://daanclean.github.io/daanclean-product-catalog/
+Catalogue: https://nokinwu-dotcom.github.io/daanclean-product-catalog/
 
 Updated: July 16, 2026
 
