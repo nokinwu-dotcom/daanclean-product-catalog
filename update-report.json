@@ -1,32 +1,123 @@
 {
-  "category_fixes": {
-    "Car Cleaing and Care Products -> Car Cleaning and Care Products": 1
+  "updated": "2026-11-04",
+  "new_products": 159,
+  "operations": {
+    "保持更新": 139,
+    "下架": 114,
+    "新增": 20
   },
-  "image_aliases": [
-    "DA-O-OCC-1 matched to DA-O-CCC-1",
-    "DA-O-OCC-2 matched to DA-O-CCC-2",
-    "DA-O-OCC-3 matched to DA-O-CCC-3",
-    "DA-O-OCC-4 matched to DA-O-CCC-4",
-    "DL-L-LNL-1 matched to DA-L-LNL-1",
-    "DL-L-LNL-3 matched to DA-L-LNL-3"
+  "categories": [
+    {
+      "name": "Leather Care",
+      "count": 49,
+      "children": [
+        {
+          "name": "Liquid Shoe Polish",
+          "count": 6
+        },
+        {
+          "name": "Cream Shoe Polish",
+          "count": 19
+        },
+        {
+          "name": "Shoe Polish Kits",
+          "count": 12
+        },
+        {
+          "name": "Shoe Shine Sponge",
+          "count": 4
+        },
+        {
+          "name": "Leather Nourishing Liquid",
+          "count": 4
+        },
+        {
+          "name": "Leather Color Restorer",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Leather Cleaner",
+      "count": 4,
+      "children": []
+    },
+    {
+      "name": "Suede and Nubuck Care",
+      "count": 3,
+      "children": [
+        {
+          "name": "Suede Polish",
+          "count": 2
+        },
+        {
+          "name": "Suede Eraser",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Sports Shoe Cleaning and Care Products",
+      "count": 29,
+      "children": [
+        {
+          "name": "Shoe Cleaner",
+          "count": 16
+        },
+        {
+          "name": "Deodorizing Spray",
+          "count": 2
+        },
+        {
+          "name": "Waterproof Spray",
+          "count": 1
+        },
+        {
+          "name": "Sneaker Cleaning Kit",
+          "count": 7
+        },
+        {
+          "name": "Shoe Whitener",
+          "count": 2
+        },
+        {
+          "name": "Shoe Wipes",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Other Cleaning Products",
+      "count": 53,
+      "children": [
+        {
+          "name": "Household Cleaning Products",
+          "count": 32
+        },
+        {
+          "name": "Clothing Cleaning Products",
+          "count": 18
+        },
+        {
+          "name": "Car Cleaning and Care Products",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Cleaning and Care Tools",
+      "count": 21,
+      "children": [
+        {
+          "name": "Shoe Horn",
+          "count": 15
+        },
+        {
+          "name": "Shoe Brush",
+          "count": 6
+        }
+      ]
+    }
   ],
-  "missing_images": [],
-  "duplicate_skus": {
-    "DA-T-SH-9": 10,
-    "DA-T-SH-10": 10,
-    "DA-T-SH-11": 7,
-    "DA-T-SH-12": 7,
-    "DA-T-SH-13": 8,
-    "DA-T-SH-14": 4,
-    "DA-T-SH-15": 4
-  },
-  "image_processing": {
-    "written": 56,
-    "reused": 238,
-    "errors": []
-  },
-  "image_source_summary": {
-    "file": 251,
-    "zip": 6
-  }
+  "missing_images": []
 }

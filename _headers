@@ -1,0 +1,6 @@
+# Versioned product assets are immutable; publish changed images under a new dated path.
+/assets/products-20261104/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/products-web-20261104/*
+  Cache-Control: public, max-age=31536000, immutable

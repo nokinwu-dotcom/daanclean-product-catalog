@@ -1,45 +1,48 @@
 {
-  "updated": "2026-07-16",
+  "updated": "2026-11-04",
+  "layout": "six-up-and-model-tables",
   "items": [
     {
       "title": "All Products Catalog",
       "filename": "DAAN-CLEAN-All-Products-Catalog.pdf",
-      "count": 294
+      "count": 159,
+      "pages": 38
     },
     {
       "title": "Leather Care Catalog",
       "filename": "DAAN-CLEAN-Leather-Care-Catalog.pdf",
-      "count": 52
+      "count": 49,
+      "pages": 9
     },
     {
       "title": "Leather Cleaner Catalog",
       "filename": "DAAN-CLEAN-Leather-Cleaner-Catalog.pdf",
-      "count": 5
+      "count": 4,
+      "pages": 1
     },
     {
       "title": "Suede and Nubuck Care Catalog",
       "filename": "DAAN-CLEAN-Suede-and-Nubuck-Care-Catalog.pdf",
-      "count": 5
+      "count": 3,
+      "pages": 1
     },
     {
       "title": "Sports Shoe Cleaning and Care Products Catalog",
       "filename": "DAAN-CLEAN-Sports-Shoe-Cleaning-and-Care-Products-Catalog.pdf",
-      "count": 37
+      "count": 29,
+      "pages": 5
     },
     {
       "title": "Other Cleaning Products Catalog",
       "filename": "DAAN-CLEAN-Other-Cleaning-Products-Catalog.pdf",
-      "count": 56
+      "count": 53,
+      "pages": 9
     },
     {
       "title": "Cleaning and Care Tools Catalog",
       "filename": "DAAN-CLEAN-Cleaning-and-Care-Tools-Catalog.pdf",
-      "count": 127
-    },
-    {
-      "title": "Packaging Materials Catalog",
-      "filename": "DAAN-CLEAN-Packaging-Materials-Catalog.pdf",
-      "count": 12
+      "count": 21,
+      "pages": 10
     }
   ]
 }

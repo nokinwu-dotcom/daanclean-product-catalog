@@ -1,0 +1,20 @@
+/* Keep mobile controls compact and category results immediately accessible. */
+@media (max-width: 680px) {
+  .topbar { gap: 8px; padding-top: 10px; padding-bottom: 10px; }
+  .brand { gap: 8px; }
+  .brand img { width: 72px; height: 32px; }
+  .brand span { font-size: 19px; }
+  .catalog-meta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; font-size: 11px; }
+  .catalog-meta strong { font-size: 12px; }
+  .header-actions { grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 8px; }
+  .search-box span { font-size: 11px; }
+  .search-box input, .download-menu summary { height: 44px; }
+  .download-menu summary { min-height: 44px; padding: 0 12px; font-size: 12px; }
+  .download-menu summary::after { display: none; }
+  .download-list { left: auto; right: 0; width: min(340px, calc(100vw - 28px)); max-height: 60vh; overflow-y: auto; }
+  .filterbar { padding-bottom: 10px; gap: 8px; }
+  .filter-toggle { min-height: 44px; }
+  .category-menu { max-height: 42vh; overflow-y: auto; }
+  .chip { white-space: normal; min-height: 40px; }
+  .factory-section { scroll-margin-top: 215px; }
+}

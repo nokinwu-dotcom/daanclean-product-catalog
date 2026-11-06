@@ -1,16 +1,9 @@
 # DAAN CLEAN Product Catalogue
 
-Static product catalogue for DAAN CLEAN / Daan Daily Chemical.
+Updated: November 4, 2026
 
-Website: https://www.daanclean.com
+159 unique products with 159 matched product images, across 6 categories.
 
-Catalogue: https://nokinwu-dotcom.github.io/daanclean-product-catalog/
+Source: November product workbook and product image set.
 
-Updated: July 16, 2026
-
-Summary:
-
-- Products: 294
-- Product image rows: 294
-- Unique product images: 56
-- Missing image rows: 0
+https://www.daanclean.com/catalog

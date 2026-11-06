@@ -157,7 +157,7 @@ select {
 }
 
 .download-menu summary::after {
-  content: "8 files";
+  content: "7 files";
   margin-left: 10px;
   border-radius: 999px;
   background: rgba(255, 255, 255, .18);
@@ -873,3 +873,6 @@ main {
     gap: 3px;
   }
 }
+
+/* November source includes multiple variants in some names. */
+.product-name { display: block; -webkit-line-clamp: unset; white-space: pre-line; }
