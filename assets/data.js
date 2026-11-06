@@ -1,6 +1,6 @@
 window.DAAN_CATALOG_DATA = {
   "updated": "2026-11-04",
-  "updatedLabel": "November 4, 2026",
+  "updatedLabel": "2026.11",
   "productCount": 159,
   "imageCount": 159,
   "categories": [

@@ -1,6 +1,6 @@
-# DAAN CLEAN Product Catalogue
+# DAAN CLEAN Product Catalogue 2026.11
 
-Updated: November 4, 2026
+Updated: 2026.11
 
 159 unique products with 159 matched product images, across 6 categories.
 
